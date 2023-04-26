@@ -1,12 +1,12 @@
-## 「見てわかるテスト駆動開発」を視聴
+## 「見てわかるテスト駆動開発」を実践
 
 参考：[TDD Boot Camp 2020 Online #1 基調講演/ライブコーディング(Youtube)](https://www.youtube.com/watch?v=Q-FJ3XmFlT8)
 
 以下メモ
 
-## 動作するきれいなコード
-
-テスト開発駆動の目的を一言で表現する
+## テスト開発駆動の目的
+> Clean code that works  
+> 動作するきれいなコード
 
 ## TDD のサイクル
 
