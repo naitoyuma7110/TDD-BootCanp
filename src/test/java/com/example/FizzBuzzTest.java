@@ -22,39 +22,53 @@ public class FizzBuzzTest {
   @Nested
   class convertメソッドは数を文字列に変換する {
   
-  @Nested
-  class _3で割り切れる場合はFizzと変換 {
-    @Test
-    public void _3を渡すと文字列Fizzを返す() throws Exception {
-      // 実行・検証
-      assertEquals("Fizz", fizzbuzz.convert(3));
-    }
-  }
-  
-  @Nested
-  class _5で割り切れる場合はFizzと変換 {
-    @Test
-    public void _5を渡すと文字列Buzzを返す() throws Exception {
-      // 実行・検証
-      assertEquals("Buzz", fizzbuzz.convert(5));
-    }
-  }
-  
-  @Nested
-  class その他の数のときはそのまま文字列に変換する {
-      
-    @Test
-    public void _1を渡すと文字列1を返す() throws Exception {
-    // 実行・検証
-    assertEquals( "1", fizzbuzz.convert(1));
+    @Nested
+    class _3で割り切れる場合はFizzと変換 {
+      @Test
+      public void _3を渡すと文字列Fizzを返す() throws Exception {
+        // 実行・検証
+        assertEquals("Fizz", fizzbuzz.convert(3));
+      }
     }
     
-    @Test
-    public void _2を渡すと文字列2を返す() throws Exception {
-      // 実行・検証
-      assertEquals("2", fizzbuzz.convert(2));
+    @Nested
+    class _5で割り切れる場合はFizzと変換 {
+      @Test
+      public void _5を渡すと文字列Buzzを返す() throws Exception {
+        // 実行・検証
+        assertEquals("Buzz", fizzbuzz.convert(5));
+      }
     }
-  }
+
+    @Nested
+    class _5と3で割り切れる場合はFizzBuzzと変換 {
+      @Test
+      public void _15を渡すと文字列FizzBuzzを返す() throws Exception {
+        // 実行・検証
+        assertEquals("FizzBuzz", fizzbuzz.convert(15));
+      }
+      @Test
+      public void _30を渡すと文字列FizzBuzzを返す() throws Exception {
+        // 実行・検証
+        assertEquals("FizzBuzz", fizzbuzz.convert(30));
+      }
+    }
+    
+    @Nested
+    class その他の数のときはそのまま文字列に変換する {
+        
+      @Test
+      public void _1を渡すと文字列1を返す() throws Exception {
+      // 実行・検証
+      assertEquals( "1", fizzbuzz.convert(1));
+      }
+      
+      @Test
+      public void _2を渡すと文字列2を返す() throws Exception {
+        // 実行・検証
+        assertEquals("2", fizzbuzz.convert(2));
+      }
+    }
 }
   
 }
