@@ -1,6 +1,6 @@
 ## 「見てわかるテスト駆動開発」を実践
 
-参考：[TDD Boot Camp 2020 Online #1 基調講演/ライブコーディング(Youtube)](https://www.youtube.com/watch?v=Q-FJ3XmFlT8)
+こちらを参考に勉強しました：[TDD Boot Camp 2020 Online #1 基調講演/ライブコーディング(Youtube)](https://www.youtube.com/watch?v=Q-FJ3XmFlT8)
 
 以下メモ
 
