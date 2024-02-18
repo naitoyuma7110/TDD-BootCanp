@@ -2,7 +2,11 @@
 FizzBuzzを題材にTDDを実践
 
 こちらを参考に実践しました  
-[TDD Boot Camp 2020 Online #1 基調講演/ライブコーディング(Youtube)](https://www.youtube.com/watch?v=Q-FJ3XmFlT8)
+参考動画：[TDD Boot Camp 2020 Online #1 基調講演/ライブコーディング(Youtube)](https://www.youtube.com/watch?v=Q-FJ3XmFlT8)
+
+![image](https://github.com/naitoyuma7110/TDD-BootCanp/assets/128150297/e6f99eb6-dd0b-49a4-ab82-c6a257cee0c6)
+
+動画内容のソース：[テスト開発駆動](https://www.amazon.co.jp/%E3%83%86%E3%82%B9%E3%83%88%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA-Kent-Beck/dp/4274217884)
 
 以下メモ
 
